@@ -1,0 +1,57 @@
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.count-container__contador {
+  display: flex;
+  align-items: center;
+}
+
+.count-container__button {
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.count-container__button:disabled {
+  cursor: not-allowed;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.count-container__count {
+  margin: 0 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.add-to-cart {
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+.add-to-cart:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+

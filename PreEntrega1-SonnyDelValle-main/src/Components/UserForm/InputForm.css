@@ -1,0 +1,52 @@
+/* Contenedor del Formulario */
+.input-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem; /* Espacio entre cada campo */
+    width: 100%; /* Asegura que el contenedor tome todo el ancho disponible */
+  }
+  
+  /* Etiqueta del Formulario */
+  .input-form-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem; /* Espacio entre la etiqueta y el input */
+  }
+  
+  /* Campo de Entrada del Formulario */
+  .input-form-input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no exceda el ancho total */
+  }
+  
+  .input-form-input:focus {
+    border-color: #007bff; /* Cambia el color del borde cuando el campo está enfocado */
+  }
+  
+  .input-form-input::placeholder {
+    color: #aaa; /* Color del texto del placeholder */
+  }
+  
+  /* Ajustes para Pantallas Pequeñas */
+  @media (max-width: 768px) {
+    .input-form-container {
+      margin-bottom: 1rem;
+    }
+  
+    .input-form-label {
+      font-size: 0.9rem;
+    }
+  
+    .input-form-input {
+      font-size: 0.9rem;
+      padding: 0.6rem 0.8rem;
+    }
+  }
+  
